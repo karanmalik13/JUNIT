@@ -16,5 +16,16 @@ public class Calculator {
 		}
 		return (a/b);
 	}
+	
+	public static void main(String args[])
+	{
+		Calculator c=new Calculator();
+		c.add(4, 8);
+		c.subtract(10, 3);
+		c.multiply(5, 3);
+		c.divide(20, 5);
+		
+	}
 
 }
+
